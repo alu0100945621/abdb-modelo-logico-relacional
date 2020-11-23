@@ -48,3 +48,14 @@ Y el caso de actualizar una persona existente:
 
 ## 3. Trigger para actualizar el stock (VIVERO)
 
+Para mantener actualizado el stock controlamos las inserciones en la tabla *PRODUCTO_PEDIDO*, ya que si un producto forma parte de un pedido el stock de este disminuirá. Utilizaremos esto para las dos tablas que tienen el atributo *stock*.
+
+![trigger_actualizar](./Images/trigger_actualizar.png)
+
+Como vemos en la diferencia entre las tablas iniciales:
+
+![antes](./Images/antes.png)
+
+Y las tablas que quedan como resultado de insertar valores en la tabla *PRODUCTO_PEDIDO*, los valores disminuyen.
+
+![actualizar_stock](./Images/actualizar_stock.png)
