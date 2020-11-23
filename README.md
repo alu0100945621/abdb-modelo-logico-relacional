@@ -31,6 +31,20 @@ Como podemos ver en la siguiente imagen, en las dos primeras filas no se insert√
 
 ## 2. Trigger para comprobar que una persona no vive en dos viviendas (CATASTRO)
 
+Para comprobar que una persona no pueda tener en la base de datos que vive en un piso y en una vivienda unifamiliar a la vez, utilizamos el siguiente trigger.
+
+Nos encontramos con el caso de insertar una persona nueva:
+
+![insert](./Images/insert.png)
+
+![persona_insert](./Images/persona_insert.png)
+
+Y el caso de actualizar una persona existente:
+
+![update](./Images/update.png)
+
+![persona_update](./Images/persona_update.png)
+
 
 ## 3. Trigger para actualizar el stock (VIVERO)
 
